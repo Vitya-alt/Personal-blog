@@ -1,0 +1,24 @@
+.tags {
+    margin-bottom: 3rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    @include breakpoint($tablet-bp) {
+        margin-bottom: 2rem;
+    }
+}
+
+.tags__item {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.9rem;
+    
+    background-color: #EA8C1E;
+    border-radius: 3px;
+    
+    color: $white;
+    fomnt-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
